@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automate Data Driven Framework Suite">
+
+	<!-- All tests will show in Report -->
+	<test name="Automate Data Driven Framework Test">
+		<classes>
+			<class name="com.datadriven.webTests.TestDemo" />
+			<class name="com.datadriven.webTests.TestDemo2" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Default suite -->
